@@ -88,3 +88,4 @@ JOIN events           e   ON b.event_id     = e.event_id
 JOIN venues           v   ON e.venue_id     = v.venue_id
 JOIN ticket_categories tc ON b.category_id  = tc.category_id
 LEFT JOIN users       su  ON el.scanned_by  = su.user_id;
+..

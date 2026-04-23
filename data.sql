@@ -98,3 +98,4 @@ INSERT INTO tickets (booking_id, qr_code, is_used) VALUES
 -- ------------------------------------------------------------
 INSERT INTO entry_logs (ticket_id, scanned_at, gate, scanned_by) VALUES
   (3, '2025-11-15 09:22:00', 'Gate A', 7);
+  ..

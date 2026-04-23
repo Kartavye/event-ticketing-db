@@ -272,3 +272,5 @@ JOIN venues  v ON e.venue_id = v.venue_id
 LEFT JOIN bookings b ON e.event_id = b.event_id
 WHERE b.booking_id IS NULL
   AND e.status = 'upcoming';
+  commit;
+  ..
